@@ -1,0 +1,3 @@
+# Silent Failure on MongoDB Insertion
+
+This repository demonstrates a common issue with MongoDB insertion operations: silent failures.  The provided JavaScript code attempts to insert a document into a MongoDB collection. However, it lacks robust error handling, leading to difficulties in debugging when insertion fails. The solution showcases how to implement proper error handling to catch and report exceptions during the insertion process, providing clearer insights into the cause of any failures.
